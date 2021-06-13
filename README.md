@@ -40,7 +40,7 @@ You can download the data in here :
 
 ## How To Build API Automation
 how to build an postman API Test
-* in case you already open the postman app first you have to make a collection by clik on new button on left and top of postman app, and choose the collection Building Blocks, then fill the name of your collection and don't forget write the description. then click create button.
+* in case you already open the postman aplication, first you have to make a collection by clik on new button on left and top of postman app, and choose the collection Building Blocks, then fill the name of your collection and don't forget write the description. then click create button.
 
 * make a new request for testing api, by click + button on youre workspace, don't forget to choose the GET method because we want to test GET data from the API, then add your URL.
 
@@ -50,37 +50,37 @@ how to build an postman API Test
 For Curent By Long Lat 
 
 ...
-pm.test("Status test", function(){
-    pm.response.to.have.status(200);
-})
-
-pm.test("state code is not empty", () => {
-    const jsonData = pm.response.json();
-    const datas = jsonData.data.find(m => m.rh === 77 );
-    pm.expect(datas.state_code).to.not.empty;
-   
-});
+$ pm.test("Status test", function(){
+$    pm.response.to.have.status(200);
+$ })
+$
+$ pm.test("state code is not empty", () => {
+$    const jsonData = pm.response.json();
+$    const datas = jsonData.data.find(m => m.rh === 77 );
+$    pm.expect(datas.state_code).to.not.empty;
+$   
+$});
 ...
 
 For Forecast Hourly by Postal Code
 
 ...
-pm.test("Status test", function(){
-    pm.response.to.have.status(200);
-})
-
-pm.test("Timestamp is not empty", () => {
-    const jsonData = pm.response.json();
-    const datas = jsonData.data.find(m => m.wind_cdir === "NNW" );
-    pm.expect(datas.timestamp_utc).to.not.empty;
-   
-});
-
-pm.test("Weather is not empty", () => {
-    const jsonData = pm.response.json();
-    const datas = jsonData.data.find(m => m.wind_cdir === "NNW" );
-    pm.expect(datas.weather).to.not.empty;
-});
-
+$ pm.test("Status test", function(){
+$    pm.response.to.have.status(200);
+$ })
+$
+$ pm.test("Timestamp is not empty", () => {
+$    const jsonData = pm.response.json();
+$    const datas = jsonData.data.find(m => m.wind_cdir === "NNW" );
+$    pm.expect(datas.timestamp_utc).to.not.empty;
+$   
+$ });
+$
+$ pm.test("Weather is not empty", () => {
+$    const jsonData = pm.response.json();
+$    const datas = jsonData.data.find(m => m.wind_cdir === "NNW" );
+$    pm.expect(datas.weather).to.not.empty;
+$ });
+$
 ...
 ## How To Run API Automation
