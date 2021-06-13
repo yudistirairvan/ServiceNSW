@@ -49,7 +49,7 @@ how to build an postman API Test
 * next step add the test requierdment for passed the api test, with this : 
 For Curent By Long Lat 
 
-'''
+```
 
 pm.test("Status test", function(){
     pm.response.to.have.status(200);
@@ -61,11 +61,11 @@ pm.test("state code is not empty", () => {
     pm.expect(datas.state_code).to.not.empty;
    
 });
-'''
+```
 
 For Forecast Hourly by Postal Code
 
-'''
+```
 
 pm.test("Status test", function(){
     pm.response.to.have.status(200);
@@ -83,6 +83,6 @@ pm.test("Weather is not empty", () => {
     const datas = jsonData.data.find(m => m.wind_cdir === "NNW" );
     pm.expect(datas.weather).to.not.empty;
 });
-'''
+```
 
 ## How To Run API Automation
