@@ -13,15 +13,29 @@ A test case for [ServiceNSW](https://www.service.nsw.gov.au/) using katalon
 
 
 ## UI Automation
-After runing the automation script using katalon
+After runing the automation script using katalon we confirm taht all page goes to appropriate page, How ever when im running the automation test we its seem to slow and make the automation stoped. 
 
-Sydney International Airport 2020
-
-Sydney Domestic Airport 2020
 
 ## How To Build UI Automation
+To build UI Automation test we can use [Katalon](https://katalon.com/).
+
+* In case you allready open the aplication, first you have to make a new Project, you can find it on Flie > New > Project
+
+* Fill the name of your project and if you want to Test the UI, make sure you choose the Web Type
+
+* By the default the project will saved on KatalonStudio Folder, you can change it on another location.
+
+* If all step done, klik on Ok Button, and it will generate the file 
+
+* Next step try to make script for testing the UI, you have to create new Test Case, you can find it on File > New > Test Case
+
+* Then generate the Script on Test case 
 
 ## How To Run UI Automation
+
+For running the script/test case you can run by click on Button Run and Choose the browser that you want to use it.
+
+Test will automaticly run by youre script if there is somethink wrong it will stopp and you can see on the log Viewer Section
 
 ## API Automation
 
@@ -36,7 +50,7 @@ You can download the data in here :
 * [Postman Collection](https://github.com/yudistirairvan/ServiceNSW/blob/main/weatherbit.io.postman_test_run.json)
 * [Data Curent Long Lat](https://github.com/yudistirairvan/ServiceNSW/blob/main/Data%20Curent%20Long%20Lat)
 * [Data Forecast Hourly by postal code](https://github.com/yudistirairvan/ServiceNSW/blob/main/Data%20Forecast%20Hourly%20by%20postal%20code)
- [UI Automation](#UI-Automation)
+
 
 ## How To Build API Automation
 

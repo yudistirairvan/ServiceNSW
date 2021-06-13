@@ -19,10 +19,6 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.closeBrowser()
-
-WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://www.service.nsw.gov.au/')
 
 WebUI.setText(findTestObject('Object Repository/input_Find locations_q'), 'Apply for a number plate')
