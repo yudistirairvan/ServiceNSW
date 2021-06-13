@@ -1,0 +1,195 @@
+{
+	"id": "511c1d25-eea5-466f-9a73-999f852c8903",
+	"name": "weatherbit.io",
+	"timestamp": "2021-06-13T08:08:59.895Z",
+	"collection_id": "412fb20f-c0c7-4e22-8ae9-aaffc4c055f7",
+	"folder_id": 0,
+	"environment_id": "05e555d2-b13f-4b87-8690-01a64080d57f",
+	"totalPass": 50,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8e334e0f-ebad-4e9d-b3bd-f2048ce462fe",
+			"name": "Curent By Long/Lat",
+			"time": 371,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true,
+				"state code is not empty": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 10,
+					"fail": 0
+				},
+				"state code is not empty": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				896,
+				984,
+				363,
+				390,
+				289,
+				394,
+				390,
+				294,
+				386,
+				371
+			],
+			"allTests": [
+				{
+					"Status test": true,
+					"state code is not empty": true
+				},
+				{
+					"Status test": true,
+					"state code is not empty": true
+				},
+				{
+					"Status test": true,
+					"state code is not empty": true
+				},
+				{
+					"Status test": true,
+					"state code is not empty": true
+				},
+				{
+					"Status test": true,
+					"state code is not empty": true
+				},
+				{
+					"Status test": true,
+					"state code is not empty": true
+				},
+				{
+					"Status test": true,
+					"state code is not empty": true
+				},
+				{
+					"Status test": true,
+					"state code is not empty": true
+				},
+				{
+					"Status test": true,
+					"state code is not empty": true
+				},
+				{
+					"Status test": true,
+					"state code is not empty": true
+				}
+			]
+		},
+		{
+			"id": "31aa17bd-12d1-4b43-967b-f72662ef972f",
+			"name": "Forecast Hourly by postal code",
+			"time": 296,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status test": true,
+				"Timestamp is not empty": true,
+				"Weather is not empty": true
+			},
+			"testPassFailCounts": {
+				"Status test": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Timestamp is not empty": {
+					"pass": 10,
+					"fail": 0
+				},
+				"Weather is not empty": {
+					"pass": 10,
+					"fail": 0
+				}
+			},
+			"times": [
+				1602,
+				427,
+				297,
+				295,
+				510,
+				422,
+				299,
+				425,
+				314,
+				296
+			],
+			"allTests": [
+				{
+					"Status test": true,
+					"Timestamp is not empty": true,
+					"Weather is not empty": true
+				},
+				{
+					"Status test": true,
+					"Timestamp is not empty": true,
+					"Weather is not empty": true
+				},
+				{
+					"Status test": true,
+					"Timestamp is not empty": true,
+					"Weather is not empty": true
+				},
+				{
+					"Status test": true,
+					"Timestamp is not empty": true,
+					"Weather is not empty": true
+				},
+				{
+					"Status test": true,
+					"Timestamp is not empty": true,
+					"Weather is not empty": true
+				},
+				{
+					"Status test": true,
+					"Timestamp is not empty": true,
+					"Weather is not empty": true
+				},
+				{
+					"Status test": true,
+					"Timestamp is not empty": true,
+					"Weather is not empty": true
+				},
+				{
+					"Status test": true,
+					"Timestamp is not empty": true,
+					"Weather is not empty": true
+				},
+				{
+					"Status test": true,
+					"Timestamp is not empty": true,
+					"Weather is not empty": true
+				},
+				{
+					"Status test": true,
+					"Timestamp is not empty": true,
+					"Weather is not empty": true
+				}
+			]
+		}
+	],
+	"count": 10,
+	"totalTime": 9644,
+	"collection": {
+		"requests": [
+			{
+				"id": "8e334e0f-ebad-4e9d-b3bd-f2048ce462fe",
+				"method": "GET"
+			},
+			{
+				"id": "31aa17bd-12d1-4b43-967b-f72662ef972f",
+				"method": "GET"
+			}
+		]
+	}
+}
