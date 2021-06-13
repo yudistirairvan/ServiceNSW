@@ -24,3 +24,8 @@ Test Api Passed
 ![Pict1](https://github.com/yudistirairvan/ServiceNSW/blob/main/pict1.png)
 ![Pict1](https://github.com/yudistirairvan/ServiceNSW/blob/main/pic2.png)
 
+You can download the data in here :
+* [Postman Collection](https://github.com/yudistirairvan/ServiceNSW/blob/main/weatherbit.io.postman_test_run.json)
+* [Data Curent Long Lat](https://github.com/yudistirairvan/ServiceNSW/blob/main/Data%20Curent%20Long%20Lat)
+* [Data Forecast Hourly by postal code](https://github.com/yudistirairvan/ServiceNSW/blob/main/Data%20Forecast%20Hourly%20by%20postal%20code)
+
