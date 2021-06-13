@@ -19,3 +19,8 @@ Sydney Domestic Airport 2020
 ## API Automation
 
 Performance tests for the API Testing with 10 times in a 1 minute duration 
+
+Test Api Passed
+![Pict1](https://github.com/yudistirairvan/ServiceNSW/blob/main/pict1.png)
+![Pict1](https://github.com/yudistirairvan/ServiceNSW/blob/main/pic2.png)
+
